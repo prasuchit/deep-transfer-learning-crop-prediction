@@ -1,5 +1,21 @@
 # Deep  Transfer  Learning  for  Crop  Yield  Prediction  with  Remote Sensing  Data
 
+## Additional Instructions by Prasanth Suresh:
+
+1.) Create a python2 conda env. Install Earth Engine api using: pip install earthengine-api
+
+2.) Use the command 'earthengine authenticate' to sign into your earth engine account. Also make sure you have a Google cloud platform setup.
+
+3.) Install: pip install win-inet-pton (Used for socket programming)
+
+4.) cd into the folder with the code files and run the following command:
+    python pull_modis.py temp usa -t data
+
+5.) This should start downloading the temperature data for USA
+
+=====================================================================
+
+
 This project implements the deep learning architectures from [You et al. 2017](http://sustain.stanford.edu/crop-yield-analysis/) and applies them to developing countries with significant agricultural productivity (Argentina, Brazil, India).
 
 We also examine the efficacy of transfer learning of yield forecasting insights between adjoining countries; some results were published in the proceedings of [COMPASS 2018](https://acmcompass.org/program/). Our paper can be viewed [here](https://www.dropbox.com/s/ei49eck573yxi6f/deep-transfer-learning.pdf?dl=0).
